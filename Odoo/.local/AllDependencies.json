@@ -1080,9 +1080,9 @@
     "restore": {
       "projectUniqueName": "Odoo",
       "projectName": "Odoo",
-      "projectPath": "C:\\Users\\guoj1\\Documents\\UiPath\\Odoo\\.local",
+      "projectPath": "E:\\Source\\Repos\\Rpa\\RPAREP\\Odoo\\.local",
       "packagesPath": "E:\\Repository\\.nuget\\packages",
-      "outputPath": "C:\\Users\\guoj1\\Documents\\UiPath\\Odoo\\.local"
+      "outputPath": "E:\\Source\\Repos\\Rpa\\RPAREP\\Odoo\\.local"
     },
     "frameworks": {
       "net461": {
