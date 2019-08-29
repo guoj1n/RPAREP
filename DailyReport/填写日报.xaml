@@ -1,0 +1,145 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="填写日报" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="470,1372" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.Exchange.Activities</x:String>
+      <x:String>UiPath.Mail.IMAP.Activities</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.POP3.Activities</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Orchestrator.Client</x:String>
+      <x:String>UiPath.Orchestrator.Client.Models</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Plugin.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser '     Page'" sap:VirtualizedContainerService.HintSize="430,1332" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="9f35c72d86ae50250240102db4ed5f3b" Selector="&lt;html title='日报新增' /&gt;">
+    <ui:BrowserScope.Body>
+      <ActivityAction x:TypeArguments="x:Object">
+        <ActivityAction.Argument>
+          <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+        </ActivityAction.Argument>
+        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="368,1186" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition OffsetX="40" OffsetY="17" Position="TopLeft" />
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="091977d5ef8d75692c83db32de2f7d25" Selector="&lt;webctrl idx='1' tag='INPUT' type='button' /&gt;" WaitForReady="COMPLETE" />
+            </ui:Click.Target>
+          </ui:Click>
+          <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT  ProjectId'" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="东方明珠（OA一期）">
+            <ui:SelectItem.Items>
+              <scg:List x:TypeArguments="x:String" Capacity="4">
+                <x:String>请选择</x:String>
+                <x:String>阿斯利康</x:String>
+                <x:String>东方明珠（OA一期）</x:String>
+              </scg:List>
+            </ui:SelectItem.Items>
+            <ui:SelectItem.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="feac30d42b8f079021dab747642f98f9" Selector="&lt;webctrl id='ProjectId' tableRow='3' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+            </ui:SelectItem.Target>
+          </ui:SelectItem>
+          <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT  TypeId'" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="运维">
+            <ui:SelectItem.Items>
+              <scg:List x:TypeArguments="x:String" Capacity="16">
+                <x:String>请选择</x:String>
+                <x:String>项目管理</x:String>
+                <x:String>需求</x:String>
+                <x:String>设计</x:String>
+                <x:String>开发</x:String>
+                <x:String>测试</x:String>
+                <x:String>运维</x:String>
+                <x:String>培训</x:String>
+                <x:String>部署</x:String>
+                <x:String>交通（出差）</x:String>
+              </scg:List>
+            </ui:SelectItem.Items>
+            <ui:SelectItem.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="679bd5dff194d788cfd7206a8d503ab3" Selector="&lt;webctrl id='TypeId' tableRow='3' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+            </ui:SelectItem.Target>
+          </ui:SelectItem>
+          <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_5" SendWindowMessages="False" SimulateType="True" Text="uipath培训">
+            <ui:TypeInto.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0efb78a802e9f6376ace9e33541a963a" Selector="&lt;webctrl tableRow='3' tag='INPUT' class='form-control dailyContent' /&gt;&#xA;" WaitForReady="COMPLETE" />
+            </ui:TypeInto.Target>
+          </ui:TypeInto>
+          <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_8" SendWindowMessages="False" SimulateType="True" Text="8">
+            <ui:TypeInto.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6309b2c6f706cfe87b187befbad2737c" Selector="&lt;webctrl tableRow='3' tag='INPUT' class='form-control usedtime k-textbox' /&gt;" WaitForReady="COMPLETE" />
+            </ui:TypeInto.Target>
+          </ui:TypeInto>
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  _kstarform_btn_s...'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition OffsetX="39" OffsetY="20" Position="TopLeft" />
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ee2be552335c9a79f49a8bc75ee5cfc6" Selector="&lt;webctrl id='_kstarform_btn_submit' tag='INPUT' type='submit' /&gt;" WaitForReady="COMPLETE" />
+            </ui:Click.Target>
+          </ui:Click>
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition OffsetX="23" OffsetY="4" Position="TopLeft" />
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0b3e139eafc4bf04de5045f0f8e6a423" Selector="&lt;webctrl aaname='OK' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+            </ui:Click.Target>
+          </ui:Click>
+        </Sequence>
+      </ActivityAction>
+    </ui:BrowserScope.Body>
+  </ui:BrowserScope>
+</Activity>

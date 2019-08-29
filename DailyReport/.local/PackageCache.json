@@ -10,10 +10,10 @@
         "E:\\Repository\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "E:\\Repository\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "E:\\Repository\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "E:\\Repository\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "E:\\Repository\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "E:\\Repository\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "E:\\Repository\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "E:\\Repository\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "E:\\Repository\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.excel.activities/2.6.2\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.excel.activities/2.6.2\\lib/net461/UiPath.Excel.Activities.dll",
@@ -68,10 +68,10 @@
       },
       "Assemblies": [
         "E:\\Repository\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "E:\\Repository\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -97,11 +97,91 @@
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
-        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
         "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.ComputerVision.Activities",
+        "Version": "2.0.1"
+      },
+      "Assemblies": [
+        "E:\\Repository\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "E:\\Repository\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "E:\\Repository\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "E:\\Repository\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath/19.7.7128.27029\\lib/UiPath.Interop.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.computervision.activities/2.0.1\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.computervision.activities/2.0.1\\lib/net461/UiPath.CV.Activities.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.computervision.activities/2.0.1\\lib/net461/UiPath.CV.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.ocr.contracts/2.0.0\\lib/net45/UiPath.OCR.Contracts.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.Wizards.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GoogleVision.Activities",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "E:\\Repository\\.nuget\\packages\\google.apis/1.38.0\\lib/net45/Google.Apis.dll",
+        "E:\\Repository\\.nuget\\packages\\google.apis/1.38.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "E:\\Repository\\.nuget\\packages\\google.apis.auth/1.38.0\\lib/net45/Google.Apis.Auth.dll",
+        "E:\\Repository\\.nuget\\packages\\google.apis.auth/1.38.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "E:\\Repository\\.nuget\\packages\\google.apis.core/1.38.0\\lib/net45/Google.Apis.Core.dll",
+        "E:\\Repository\\.nuget\\packages\\google.apis.vision.v1/1.38.0.1495\\lib/net45/Google.Apis.Vision.v1.dll",
+        "E:\\Repository\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.googlevision.activities/1.1.0\\lib/net461/UiPath.GoogleVision.Activities.Design.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.googlevision.activities/1.1.0\\lib/net461/UiPath.GoogleVision.Activities.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.googlevision.activities/1.1.0\\lib/net461/UiPath.GoogleVision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftVision.Activities",
+        "Version": "2.1.0"
+      },
+      "Assemblies": [
+        "E:\\Repository\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision/5.0.0\\lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "E:\\Repository\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.20\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "E:\\Repository\\.nuget\\packages\\microsoft.rest.clientruntime.azure/3.3.19\\lib/net461/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "E:\\Repository\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.Activities.Design.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.Activities.dll",
+        "E:\\Repository\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.dll"
       ]
     }
   ],
@@ -142,6 +222,58 @@
       "Version": "2.8.0",
       "Dependencies": []
     },
+    "Google.Apis": {
+      "Id": "Google.Apis",
+      "Version": "1.38.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.38.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Auth": {
+      "Id": "Google.Apis.Auth",
+      "Version": "1.38.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.38.0, )"
+        },
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.38.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Core": {
+      "Id": "Google.Apis.Core",
+      "Version": "1.38.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Vision.v1": {
+      "Id": "Google.Apis.Vision.v1",
+      "Version": "1.38.0.1495",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.38.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.38.0, )"
+        }
+      ]
+    },
     "Humanizer.Core": {
       "Id": "Humanizer.Core",
       "Version": "2.4.2",
@@ -162,6 +294,24 @@
         }
       ]
     },
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+      "Id": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.18, 3.0.0)"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime.Azure",
+          "Item2": "[3.3.18, 4.0.0)"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.8, )"
+        }
+      ]
+    },
     "Microsoft.Exchange.WebServices": {
       "Id": "Microsoft.Exchange.WebServices",
       "Version": "2.2.0",
@@ -171,6 +321,20 @@
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.20",
       "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure": {
+      "Id": "Microsoft.Rest.ClientRuntime.Azure",
+      "Version": "3.3.19",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.19, 3.0.0)"
+        },
         {
           "Item1": "Newtonsoft.Json",
           "Item2": "[10.0.3, )"
@@ -207,6 +371,28 @@
       "Version": "19.7.7128.27029",
       "Dependencies": []
     },
+    "UiPath.ComputerVision.Activities": {
+      "Id": "UiPath.ComputerVision.Activities",
+      "Version": "2.0.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.UIAutomation.Activities",
+          "Item2": "[19.4.1, )"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[1.6.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[1.1.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
       "Version": "2.6.2",
@@ -237,6 +423,28 @@
         }
       ]
     },
+    "UiPath.GoogleVision.Activities": {
+      "Id": "UiPath.GoogleVision.Activities",
+      "Version": "1.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.38.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.38.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Vision.v1",
+          "Item2": "[1.38.0.1495, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
       "Version": "1.5.1",
@@ -252,6 +460,28 @@
         {
           "Item1": "interop.domino.dll",
           "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.MicrosoftVision.Activities": {
+      "Id": "UiPath.MicrosoftVision.Activities",
+      "Version": "2.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.20, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime.Azure",
+          "Item2": "[3.3.19, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
         }
       ]
     },
